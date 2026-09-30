@@ -9,6 +9,7 @@ public function __construct(string $nome, string $email)
     $this->email = $email;
 }
 public function getNome(): string { return $this->nome; }
-public function getEmail() : strin {
-    
-}
+public function getEmail() : string { return $this->email; }
+
+abstract function exibitrInfo() : string;
+ ?>

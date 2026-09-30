@@ -16,3 +16,6 @@
 
 <button type="submit">Cadastrar</button>
 </form>
+
+foreach ($usuarios as $dados) {
+    if ($dados["tipo"])
