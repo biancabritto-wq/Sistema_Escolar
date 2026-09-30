@@ -18,4 +18,6 @@
 </form>
 
 foreach ($usuarios as $dados) {
-    if ($dados["tipo"])
+    if ($dados["tipo"] === "Aluno") {
+        $objeto = new Aluno {
+            $dados[]
