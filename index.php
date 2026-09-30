@@ -21,4 +21,6 @@ foreach ($usuarios as $dados) {
     if ($dados["tipo"] === "Aluno") {
         $objeto = new Aluno {
             $dados["nome"],
-            $dados["nome"],
+            $dados["email"],
+            $dados["extra"]
+        );
